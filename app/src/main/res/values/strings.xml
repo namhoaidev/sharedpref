@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="login_username_hint">Username</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_checkbox">Show password</string>
+    <string name="login_button">Login</string>
+    <string name="register_sdt_hint">SĐT</string>
+    <string name="register_email_hint">Email</string>
+    <string name="register_password_hint">Password</string>
+    <string name="register_repassword_hint">Repass</string>
+    <string name="register_button">Register</string>
+</resources>

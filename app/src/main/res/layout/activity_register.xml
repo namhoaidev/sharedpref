@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_login_margin_left"
+    android:layout_marginRight="@dimen/activity_login_margin_right">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_register_margin_top"
+        android:hint="@string/login_username_hint"
+        android:id="@+id/edtUsername"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/register_sdt_hint"
+        android:id="@+id/edtSDT"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/register_email_hint"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edtEmail" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/register_password_hint"
+        android:id="@+id/edtPassword"
+        android:inputType="textPassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/register_repassword_hint"
+        android:inputType="textPassword"
+        android:id="@+id/edtRepass"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_button"
+        android:id="@+id/btnRegister"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"/>
+</LinearLayout>
